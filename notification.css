@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    list-style: none;
+    font-size: 16px;
+    line-height: 1.2;
+    content: '';
+    content: none;
+    border-spacing: 0;
+    border-collapse: collapse;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 900px;
+    background-color: hsl(205, 33%, 90%);
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+}
+
+.wrapper{
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 1em;
+    gap: 10px;
+    
+
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.unread{
+    background-color: hsl(211, 68%, 94%);
+    border-radius: 1em;
+    padding: 1em;
+}
+
+div{
+    display: flex;
+    gap: 0.7em;
+
+}
+
+img{
+    width: 1.9em;
+}
+
+.read{
+    background-color: hsl(0, 0%, 100%);
+    padding: 1em;
+}
+
+.reply{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pix{
+    height: 2em;
+}
+
+.pix:hover{
+    cursor: pointer;
+}
+
+p{
+    font-size: 1em;
+    color: hsl(219, 14%, 63%);
+    border: 1px solid hsl(205, 33%, 90%);
+    padding: 10px;
+    margin-top: 1em;
+    border-radius: 0.4em;
+}
+
+p:hover{
+    background-color: hsl(211, 68%, 94%);
+    cursor: pointer;
+}
+
+h1{
+    color: hsl(224, 21%, 14%);
+    font-size: 1.4rem;
+}
+
+.msg{
+    background-color: hsl(219, 85%, 26%);
+    color: hsl(0, 0%, 100%);
+    padding: 0.1em 0.5em;
+    border-radius: 0.3em;
+    margin-left: 0.4em;
+}
+.mark:hover{
+    cursor: pointer;
+    color: hsl(219, 85%, 26%);
+}
+
+.mark{
+    color: hsl(219, 14%, 63%);
+    font-weight: 400;
+    font-size: 0.8em;
+}
+
+.name{
+    color: hsl(224, 21%, 14%);
+    font-size: 0.9em;
+    font-weight: 900;
+}
+
+.name:hover{
+    color: hsl(219, 85%, 26%);
+}
+
+.action{
+    color: hsl(219, 14%, 63%);
+    font-size: 0.9em;
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1em;
+    color: hsl(219, 12%, 42%);
+}
+
+a:hover{
+    color: hsl(219, 85%, 26%);
+}
+
+h3{
+    color: hsl(219, 14%, 63%);
+    font-size: 0.8em;
+    font-weight: 200;
+    padding-top: 0.5em;
+}
+
+.fa-solid{
+    padding-left: 1em;
+    font-size: 0.5em;
+    color: hsl(1, 90%, 64%);
+}

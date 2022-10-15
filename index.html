@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Notifications page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="notification.css">
+</head>
+<body>
+
+  <main class="wrapper">
+    <header class="container">
+      <h1>Notifications <span class="msg">3</span> </h1>
+      <h2 class="mark">Mark all as read</h2>
+    </header>
+  
+    <div class="unread">
+      <section>
+        <img src="assets/images/avatar-mark-webber.webp" alt="">
+      </section>
+      <section>
+        <h2><a href="#" class="name">Mark Webber</a>  <span class="action">reacted to your recent post</span> <a href="#">My first tournament today!</a> <i class="fa-solid fa-circle" id="dot"></i></h2>
+        <h3>1m ago </h3>
+      </section>
+    </div>
+
+    <div class="unread chg">
+      <section>
+        <img src="assets/images/avatar-angela-gray.webp" alt="">
+      </section>
+      <section>
+        <h2><a href="#" class="name">Angela Gray</a>  <span class="action">followed you</span> <i class="fa-solid fa-circle" id="dots"></i></h2>
+        <h3>5m ago</h3>
+      </section>
+    </div>
+
+    <div class="unread ch">
+      <section>
+        <img src="assets/images/avatar-jacob-thompson.webp" alt="">
+      </section>
+      <section>
+        <h2><a href="#" class="name">Jacob Thompson</a>  <span class="action">has joined your group</span>  <a href="#">Chess Club</a> <i class="fa-solid fa-circle" id="dott"></i></h2>
+        <h3>1 day ago</h3>
+      </section>
+    </div>
+
+    <div class="read">
+      <section>
+        <img src="assets/images/avatar-rizky-hasanuddin.webp" alt="">
+      </section>
+      <section>
+        <h2><a href="#" class="name">Rizky Hasanuddin</a>  <span class="action">sent you a private message</span> </h2>
+        <h3>5 days ago</h3>
+        <div>
+          <p>Hello, thanks for setting up the Chess Club. I've been a member for a 
+            <br> few weeks now and I'm already having lots of fun and improving my 
+            <br> game.</p>
+        </div>
+      </section>
+      
+    </div>
+
+    <div class="reply">
+      <div class="read">
+        <section>
+          <img src="assets/images/avatar-kimberly-smith.webp" alt="">
+        </section>
+        <section>
+          <h2><a href="#" class="name">Kimberly Smith</a>  <span class="action">commented on your picture</span> </h2>
+          <h3>1 week ago</h3>
+        </section>
+      </div>
+      <div class="pix">
+        <img src="assets/images/image-chess.webp" alt="">
+      </div>
+
+    </div>
+
+    <div class="read">
+      <section>
+        <img src="assets/images/avatar-nathan-peterson.webp" alt="">
+      </section>
+      <section>
+        <h2><a href="#" class="name">Nathan Peterson</a>  <span class="action">reacted to your recent post</span> <a href="#">5 end-game strategies to <br> increase your win rate</a> </h2>
+        <h3>2 weeks ago</h3>
+      </section>
+    </div>
+
+    <div class="read">
+      <section>
+        <img src="assets/images/avatar-anna-kim.webp" alt="">
+      </section>
+      <section>
+        <h2><a href="#" class="name">Anna Kim</a>  <span class="action">left the group</span> <a href="#">Chess Club</a> </h2>
+        <h3>2 weeks ago</h3>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">COLLEX</a>.
+    </div>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
